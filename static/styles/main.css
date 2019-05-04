@@ -1,0 +1,210 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/**************
+    HEADER
+**************/
+header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #FFF;
+}
+
+header #brand {
+  margin: 0;
+  padding: 5px;
+}
+
+header nav {
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+header nav .nav-item {
+  margin: 0px 10px;
+  padding: 0;
+}
+
+header nav .nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: #282828;
+}
+
+header nav .nav-link:hover {
+  color: #E3B612;
+}
+
+header nav #dropdown-box {
+  margin: 10px;
+  padding: 15px;
+  background: #FFF;
+}
+
+header nav #dropdown-box a {
+  padding: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  letter-spacing: 1.5px;
+  color: #181818;
+}
+
+header nav #dropdown-box a:hover {
+  background: #FFF;
+  color: #E3B612;
+}
+
+/**************
+    FOOTER
+**************/
+footer {
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+footer p {
+  margin-bottom: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  color: #282828;
+  opacity: 0.8;
+}
+
+/**************
+     MAIN
+**************/
+#sub-header {
+  width: 100%;
+  margin: 0;
+  padding: 40px;
+  background: #181818;
+}
+
+#sub-header img {
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#sub-header h1 {
+  margin: 5px;
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #E3B612;
+}
+
+main {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #FFF;
+}
+
+main #about-info {
+  width: 100%;
+  margin: 40px auto;
+  padding: 20px;
+  background: #FFF;
+}
+
+main #about-info img {
+  display: block;
+  margin: 25px auto;
+  padding: 20px;
+  width: 250px;
+  height: 250px;
+}
+
+main #about-info h1 {
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #282828;
+}
+
+main #about-info p {
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  color: #282828;
+  opacity: 0.8;
+}
+
+main .services {
+  margin: 0 auto;
+}
+
+main .services img {
+  width: 300px;
+  height: 300px;
+}
+
+main .services h1 {
+  margin: 5px 0px;
+  margin-top: 2rem;
+  padding: 5px 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  color: #282828;
+}
+
+main .services p {
+  margin: 10px 0px;
+  padding: 10px 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+  text-align: left;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  color: #282828;
+  opacity: 0.8;
+}
+
+main .feature-divider {
+  margin: 4rem auto;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+/*# sourceMappingURL=main.css.map */

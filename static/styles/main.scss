@@ -1,0 +1,120 @@
+
+@import 'bootstrap';
+@import 'header';
+@import 'footer';
+
+/**************
+     MAIN
+**************/
+
+#sub-header {
+    width: 100%;
+    margin: 0;
+    padding: 40px;
+    background: #181818; 
+
+    img {
+        height: 250px;
+        width: 250px;
+        display: block;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    h1 {
+        margin: 5px;
+        padding: 5px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #E3B612;
+    }
+}
+
+main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+
+    #about-info {
+        width: 100%;
+        margin: 40px auto;
+        padding: 20px;
+        background: #FFF;
+
+        img {
+            display: block;
+            margin: 25px auto;
+            padding: 20px;
+            width: 250px;
+            height: 250px;
+        }
+
+        h1 {
+            margin: 10px;
+            padding: 10px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            letter-spacing: 1px;
+            color: #282828;
+        }
+
+        p {
+            margin: 10px;
+            padding: 10px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 17px;
+            font-weight: normal;
+            text-align: center;
+            letter-spacing: 1px;
+            line-height: 1.6;
+            color: #282828;
+            opacity: 0.8;
+        }
+    }
+
+    .services {
+        margin: 0 auto;
+
+        img {
+            width: 300px;
+            height: 300px;
+        }
+
+        h1 {
+            margin: 5px 0px;
+            margin-top: 2rem;
+            padding: 5px 0px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: left;
+            color: #282828;
+        }
+
+        p {
+            margin: 10px 0px;
+            padding: 10px 0px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 17px;
+            font-weight: normal;
+            text-align: left;
+            letter-spacing: 1px;
+            line-height: 1.6;
+            color: #282828;
+            opacity: 0.8;
+        }
+    }
+
+    .feature-divider {
+        margin: 4rem auto;
+        border: 0;
+        border-top: 1px solid rgba(0,0,0,.1);
+    }
+}
+
